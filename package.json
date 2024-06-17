@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "ncc build -m src/index.ts && git add dist"
+    "build": "ncc build src/index.ts && git add dist"
   },
   "husky": {
     "hooks": {
